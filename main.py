@@ -1,4 +1,9 @@
-
+from utils import Utils
 
 if __name__ == '__main__':
-    pass
+    
+    utils = Utils()
+
+    data = utils.load_from_csv('./in/felicidad.csv')
+
+    print(data)
